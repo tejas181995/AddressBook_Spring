@@ -15,7 +15,7 @@ import com.bl.addressbook.model.Contact;
 
 @RestController
 @RequestMapping("/addressbook")
-public class AddressBookController {
+public class AddressBookController{
 
 	Contact newContact;
 	
@@ -27,6 +27,9 @@ public class AddressBookController {
 	
 	@GetMapping
 	public ResponseEntity<ResponseDTO> getContact() {
-		return new ResponseEntity<ResponseDTO>(new ResponseDTO(newContact, "Contact fetched"), HttpStatus.CREATED);
+		if(newContact != null)
+			return new ResponseEntity<ResponseDTO>(new ResponseDTO(newContact, "Contact fetched"), HttpStatus.CREATED);
+		else
+			return new ResponseEntity<ResponseDTO>(new ResponseDTO(newContact, "Contact is empty"), HttpStatus.CREATED);
 	}
 }
