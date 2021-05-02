@@ -1,5 +1,7 @@
 package com.bl.addressbook.controller;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -23,7 +25,7 @@ public class AddressBookController{
 	private IAddressBookService addressBookService;
 	
 	@PostMapping
-	public ResponseEntity<ResponseDTO> addContact(@RequestBody ContactDTO contact){
+	public ResponseEntity<ResponseDTO> addContact(@Valid @RequestBody ContactDTO contact){
 		return new ResponseEntity<ResponseDTO>(new ResponseDTO(addressBookService.addContact(contact), "Contact created"), HttpStatus.CREATED);
 	}
 	

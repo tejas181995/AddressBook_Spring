@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.bl.addressbook.dto.ContactDTO;
+import com.bl.addressbook.exception.AddressBookException;
 import com.bl.addressbook.model.Contact;
 import com.bl.addressbook.repository.IAddressBookRepo;
 
@@ -24,7 +25,8 @@ public class AddressBookService implements IAddressBookService {
 
 	@Override
 	public Optional<Contact> getcontactById(int contactId) {
-		return addressbookRepo.findById(contactId);
+		return Optional.ofNullable(addressbookRepo.findById(contactId).orElseThrow(() -> 
+						new AddressBookException(AddressBookException.exceptionType.CONTACT_NOT_FOUND, "Contact does not exist")));
 	}
 
 	@Override
