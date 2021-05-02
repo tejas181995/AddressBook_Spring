@@ -1,0 +1,77 @@
+2021-05-03 00:49:07.580 [INFO] [restartedMain] [c.b.a.AddressookSpringApplication:55] Starting AddressookSpringApplication using Java 15.0.2 on wiseone with PID 42707 (/home/tejas/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/Addressook_Spring/target/classes started by tejas in /home/tejas/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/Addressook_Spring)
+2021-05-03 00:49:07.582 [DEBUG] [restartedMain] [c.b.a.AddressookSpringApplication:56] Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-05-03 00:49:07.582 [INFO] [restartedMain] [c.b.a.AddressookSpringApplication:679] The following profiles are active: PROD
+2021-05-03 00:49:08.108 [WARN] [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:221] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-03 00:49:08.308 [INFO] [restartedMain] [c.b.a.AddressookSpringApplication:61] Started AddressookSpringApplication in 1.627 seconds (JVM running for 90.736)
+2021-05-03 00:49:09.855 [INFO] [restartedMain] [c.b.a.AddressookSpringApplication:55] Starting AddressookSpringApplication using Java 15.0.2 on wiseone with PID 42707 (/home/tejas/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/Addressook_Spring/target/classes started by tejas in /home/tejas/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/Addressook_Spring)
+2021-05-03 00:49:09.856 [DEBUG] [restartedMain] [c.b.a.AddressookSpringApplication:56] Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-05-03 00:49:09.857 [INFO] [restartedMain] [c.b.a.AddressookSpringApplication:679] The following profiles are active: PROD
+2021-05-03 00:49:10.623 [WARN] [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:221] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-03 00:49:10.936 [INFO] [restartedMain] [c.b.a.AddressookSpringApplication:61] Started AddressookSpringApplication in 1.152 seconds (JVM running for 93.364)
+2021-05-03 00:49:30.018 [INFO] [restartedMain] [c.b.a.AddressookSpringApplication:55] Starting AddressookSpringApplication using Java 15.0.2 on wiseone with PID 42966 (/home/tejas/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/Addressook_Spring/target/classes started by tejas in /home/tejas/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/Addressook_Spring)
+2021-05-03 00:49:30.020 [DEBUG] [restartedMain] [c.b.a.AddressookSpringApplication:56] Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-05-03 00:49:30.020 [INFO] [restartedMain] [c.b.a.AddressookSpringApplication:679] The following profiles are active: PROD
+2021-05-03 00:49:32.236 [WARN] [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:61] Unable to start LiveReload server
+2021-05-03 00:49:32.567 [WARN] [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:221] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-03 00:49:32.899 [WARN] [restartedMain] [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8083 is already in use
+2021-05-03 00:49:32.928 [ERROR] [restartedMain] [o.s.b.d.LoggingFailureAnalysisReporter:40] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8083 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8083 or configure this application to listen on another port.
+
+2021-05-03 00:49:55.611 [INFO] [restartedMain] [c.b.a.AddressookSpringApplication:55] Starting AddressookSpringApplication using Java 15.0.2 on wiseone with PID 43036 (/home/tejas/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/Addressook_Spring/target/classes started by tejas in /home/tejas/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/Addressook_Spring)
+2021-05-03 00:49:55.614 [DEBUG] [restartedMain] [c.b.a.AddressookSpringApplication:56] Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-05-03 00:49:55.614 [INFO] [restartedMain] [c.b.a.AddressookSpringApplication:679] The following profiles are active: PROD
+2021-05-03 00:49:58.776 [WARN] [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:61] Unable to start LiveReload server
+2021-05-03 00:49:59.185 [WARN] [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:221] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-03 00:49:59.651 [WARN] [restartedMain] [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8083 is already in use
+2021-05-03 00:49:59.685 [ERROR] [restartedMain] [o.s.b.d.LoggingFailureAnalysisReporter:40] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8083 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8083 or configure this application to listen on another port.
+
+2021-05-03 00:50:19.802 [INFO] [restartedMain] [c.b.a.AddressookSpringApplication:55] Starting AddressookSpringApplication using Java 15.0.2 on wiseone with PID 43101 (/home/tejas/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/Addressook_Spring/target/classes started by tejas in /home/tejas/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/Addressook_Spring)
+2021-05-03 00:50:19.804 [DEBUG] [restartedMain] [c.b.a.AddressookSpringApplication:56] Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-05-03 00:50:19.804 [INFO] [restartedMain] [c.b.a.AddressookSpringApplication:679] The following profiles are active: PROD
+2021-05-03 00:50:22.341 [WARN] [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:221] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-03 00:50:22.867 [INFO] [restartedMain] [c.b.a.AddressookSpringApplication:61] Started AddressookSpringApplication in 3.396 seconds (JVM running for 4.035)
+2021-05-03 00:54:48.792 [INFO] [restartedMain] [c.b.a.AddressookSpringApplication:55] Starting AddressookSpringApplication using Java 15.0.2 on wiseone with PID 43101 (/home/tejas/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/Addressook_Spring/target/classes started by tejas in /home/tejas/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/Addressook_Spring)
+2021-05-03 00:54:48.792 [DEBUG] [restartedMain] [c.b.a.AddressookSpringApplication:56] Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-05-03 00:54:48.793 [INFO] [restartedMain] [c.b.a.AddressookSpringApplication:679] The following profiles are active: PROD
+2021-05-03 00:54:49.604 [WARN] [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:221] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-03 00:54:49.784 [INFO] [restartedMain] [c.b.a.AddressookSpringApplication:61] Started AddressookSpringApplication in 1.057 seconds (JVM running for 270.951)
+2021-05-03 00:58:49.717 [INFO] [restartedMain] [c.b.a.AddressookSpringApplication:55] Starting AddressookSpringApplication using Java 15.0.2 on wiseone with PID 43101 (/home/tejas/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/Addressook_Spring/target/classes started by tejas in /home/tejas/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/Addressook_Spring)
+2021-05-03 00:58:49.717 [DEBUG] [restartedMain] [c.b.a.AddressookSpringApplication:56] Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-05-03 00:58:49.717 [INFO] [restartedMain] [c.b.a.AddressookSpringApplication:679] The following profiles are active: PROD
+2021-05-03 00:58:50.113 [WARN] [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:221] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-03 00:58:50.288 [INFO] [restartedMain] [c.b.a.AddressookSpringApplication:61] Started AddressookSpringApplication in 0.599 seconds (JVM running for 511.456)
+2021-05-03 01:03:10.305 [INFO] [restartedMain] [c.b.a.AddressookSpringApplication:55] Starting AddressookSpringApplication using Java 15.0.2 on wiseone with PID 43101 (/home/tejas/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/Addressook_Spring/target/classes started by tejas in /home/tejas/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/Addressook_Spring)
+2021-05-03 01:03:10.306 [DEBUG] [restartedMain] [c.b.a.AddressookSpringApplication:56] Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-05-03 01:03:10.306 [INFO] [restartedMain] [c.b.a.AddressookSpringApplication:679] The following profiles are active: PROD
+2021-05-03 01:03:11.145 [WARN] [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:221] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-03 01:03:11.418 [INFO] [restartedMain] [c.b.a.AddressookSpringApplication:61] Started AddressookSpringApplication in 1.191 seconds (JVM running for 772.586)
+2021-05-03 01:03:11.421 [INFO] [restartedMain] [c.b.a.AddressookSpringApplication:22] Address Book started in PROD Environment
+2021-05-03 01:03:30.881 [INFO] [restartedMain] [c.b.a.AddressookSpringApplication:55] Starting AddressookSpringApplication using Java 15.0.2 on wiseone with PID 43101 (/home/tejas/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/Addressook_Spring/target/classes started by tejas in /home/tejas/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/Addressook_Spring)
+2021-05-03 01:03:30.882 [DEBUG] [restartedMain] [c.b.a.AddressookSpringApplication:56] Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-05-03 01:03:30.882 [INFO] [restartedMain] [c.b.a.AddressookSpringApplication:679] The following profiles are active: PROD
+2021-05-03 01:03:31.744 [WARN] [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:221] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-03 01:03:32.126 [INFO] [restartedMain] [c.b.a.AddressookSpringApplication:61] Started AddressookSpringApplication in 1.291 seconds (JVM running for 793.294)
+2021-05-03 01:03:32.132 [INFO] [restartedMain] [c.b.a.AddressookSpringApplication:21] Address Book started in PROD Environment
